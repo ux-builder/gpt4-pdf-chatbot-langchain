@@ -125,7 +125,7 @@ export default function Home() {
       <Layout>
         <div className="mx-auto flex flex-col gap-4">
           <h1 className="text-2xl font-bold leading-[1.1] tracking-tighter text-center">
-            Chat With Your Docs
+            Chat With 인사 법령
           </h1>
           <main className={styles.main}>
             <div className={styles.cloud}>
@@ -258,11 +258,7 @@ export default function Home() {
             )}
           </main>
         </div>
-        <footer className="m-auto p-4">
-          <a href="https://twitter.com/mayowaoshin">
-            Powered by LangChainAI. Demo built by Mayo (Twitter: @mayowaoshin).
-          </a>
-        </footer>
+        <footer className="m-auto p-4">Test AI 인사쟁이</footer>
       </Layout>
     </>
   );
